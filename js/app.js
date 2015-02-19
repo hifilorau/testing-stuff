@@ -1,0 +1,2 @@
+function convertToHex(o){var e=[];do{var n=o%16;o=Math.floor(o/16),e.push(toHex(n)),16>o&&e.push(toHex(o))}while(o>15);newHex=e.reverse().join(""),console.log(newHex)}function toHex(o){return 10===o?o="A":11===o?o="B":12===o?o="C":13===o?o="D":14===o?o="E":15===o?o="F":o}function isPalindrome(o){var e=o.split("");console.log(e);var n=e.reverse();console.log(n);var r=n.join("");return console.log(r),o===r?(console.log("true"),!0):(console.log("false"),!1)}var app={};app.showInitialPage(),app.convertToHex();
+//# sourceMappingURL=app.js.map
