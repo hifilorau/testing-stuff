@@ -1,0 +1,2 @@
+app.showInitialPage();
+app.convertToHex ();
